@@ -1,0 +1,10 @@
+snapshots:
+    - name:  dim_predictive_maintenance
+      relation: ref("predictive_maintenance")
+      config:
+        schema : gold
+        database : DTCDATA
+        unique_key : vehicle_id
+        strategy: timestamp
+        updated_at : reported_time_stamp
+        dbt_valid_to_current: "to_date('9999-12-31')"

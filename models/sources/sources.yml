@@ -1,0 +1,9 @@
+sources:
+  - name: staging
+    database: DTCDATA  
+    schema:  RAW 
+    tables:
+      - name: production_data
+      - name: vehicle_data
+      - name: dtc_data
+      - name: hex_dump_data

@@ -1,0 +1,13 @@
+models:
+  - name: bronze_dtc_data
+    config:
+      materialized: view
+  - name: bronze_hex_dump_data
+    config:
+      materialized: view
+  - name: bronze_production_data
+    config:
+      materialized: view
+  - name: bronze_vehicle_data
+    config:
+      materialized: view            

@@ -1,0 +1,13 @@
+models:
+  - name: silver_dtc
+    config:
+      materialized: view
+  - name: silver_hex_dump
+    config:
+      materialized: view
+  - name: silver_production
+    config:
+      materialized: view
+  - name: silver_vehicle
+    config:
+      materialized: view            
